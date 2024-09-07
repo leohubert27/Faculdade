@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Xô Dengue!!!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="./css/estilo.css" rel="stylesheet" type="text/css" />
+    <link href="./css/footer.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top"
+            style="box-shadow: 0 0 0.9vw 0.9vw rgba(0,0,0,0.1); background-color: rgba(72, 205, 201, 0.95); z-index: 100; width: 100%; position: fixed;">
+            <a style="margin: 0; padding: 0;" class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav w-100 justify-content-around custom-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#1">O que é?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#2">Histórico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#3">Atualmente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#4">Sintomas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#5">Diagnóstico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#6">Tratamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#7">Prevenção</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+    <main style="padding-top: 56px;">
+        <div class="container-fluid hero"
+            style="margin-bottom: 1rem; border-radius: 0px 0px 30px 30px; width: 100%; background-color: #b4e4d2; display: flex; justify-content: space-evenly;">
+            <div class="row">
+                <div class="col-sm" style="display: flex; align-items: center; padding: 0 0;">
+                    <a class="mt-2"><img style="width: 320px;"
+                            src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=50&duration=3000&pause=1000&color=000&center=true&vCenter=true&random=false&width=435&lines=X%C3%B4+Dengue!!!"
+                            alt="Typing SVG" /></a>
+                </div>
+                <div style="justify-content: center; display: flex; " class="col-sm">
+                    <img src="images\todos contra dengue(sem fundo).svg" class="img logo"
+                        alt="Simbolo de proibido sobre a imagem do mosquito da dengue">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid" style="width: 90%;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"
+                        style="filter: invert(1);"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" style="filter: invert(1);"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" style="filter: invert(1);"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3" style="filter: invert(1);"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block mx-auto" style="width: 100%;" src="images\prev1.svg" alt='Imagem de um mosquito da dengue picando uma pessoa, com um sinal de proibido sobre ele. A imagem acompanha um texto que diz "CALOR + CHUVA = DENGUE. É hora de prevenir e combater."'>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto" style="width: 100%;" src="images\prev2.svg" alt="Imagem de uma pessoa agachada, cercada de folhas secas, investigando o interior de um pneu com uma lanterna.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto" style="width: 100%;" src="images\prev3.svg" alt="Imagem de uma pessoa escorrendo os pratinhos debaixo dos vasos de suas plantas, eliminando a água parada.">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto" style="width: 100%;" src="images\prev4.svg" alt="Imagem de uma pessoa levantando a tampa de uma caixa d'água, presumidamente procurando por criadouros do mosquito.">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container-fluid banner">
+            <h2 id="1" class="textBanner">O que é?</h2>
+        </div><br>
+
+        <div class="container-fluid" style="width: 90%;">
+            <div class="row">
+                <div class="col-sm" style="display: flex; justify-content: center;">
+                    <img class="img-fluid" style="width:70%" src="images\Dengue-01.svg" alt="Imagem gerada por computador do vírus da dengue.">
+                </div>
+                <div class="col-sm">
+                    <p style="text-align: justify;">A dengue é uma doença febril aguda, transmitida principalmente pela
+                        picada do mosquito Aedes aegypti infectado. Este mosquito é comum em áreas tropicais e
+                        subtropicais ao redor do mundo, especialmente em ambientes urbanos e semiurbanos. A dengue pode
+                        variar de uma doença leve a uma forma mais grave, conhecida como dengue grave ou dengue
+                        hemorrágica, que pode ser fatal se não for tratada adequadamente. A quase totalidade dos óbitos
+                        por dengue é evitável e depende, na maioria das vezes, da qualidade da assistência prestada e
+                        organização da rede de serviços de saúde.</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="container-fluid banner">
+            <h2 id="2" class="textBanner">Histórico</h2>
+        </div>
+        <br>
+        <div class="container-fluid" style="width: 90%;">
+            <div class="row">
+                <div class="col-sm" style="display: flex; justify-content: center;">
+                    <img class="img-fluid" src="images\2.svg" class="img" alt="Imagem de um mosquito da dengue rodeando um barco, ao fundo pode-se ver pirâmides e uma esfinge">
+                </div>
+                <div class="col-sm">
+                    <p style="text-align: justify;">Provavelmente, o vírus da dengue teve origem em primatas não humanos
+                        na Malásia. A transmissão para humanos ocorreu com a aproximação das populações humanas ao
+                        habitat natural do vírus. O primeiro registro provável da dengue foi na China.
+
+                        <br>A dengue hemorrágica, uma forma mais grave da doença, surgiu na década de 1950 no sudeste
+                        asiático. Esta forma severa ocorre quando uma pessoa previamente infectada pelo vírus é
+                        contaminada por um sorotipo diferente. Na América do Sul e Central, essa forma da doença começou
+                        a aparecer na década de 1980.
+
+                        <br>O vetor da dengue é o mosquito do gênero Aedes, sendo a principal espécie o Aedes aegypti,
+                        embora não seja a única. Este mosquito é vetor de várias doenças, incluindo dengue, zika,
+                        chikungunya e febre amarela. Originário da África, o Aedes aegypti se espalhou pelo mundo
+                        durante as grandes navegações a partir do século XV.
+
+                        <br>No Brasil, os primeiros relatos de dengue surgiram no final do século XIX, mas o principal
+                        problema na época era a febre amarela. Houve grandes campanhas contra o vetor, e na década de
+                        1950, após intensa campanha, a Associação Pan-Americana de Saúde conseguiu erradicar o Aedes
+                        aegypti de diversos países das Américas, inclusive do Brasil. No entanto, o mosquito voltou a se
+                        alastrar posteriormente, reaparecendo nas principais cidades brasileiras a partir da década de
+                        1970.
+
+                        <br>As primeiras epidemias de dengue nas Américas ocorreram no século XIX, com surtos no Caribe,
+                        Estados Unidos, Colômbia e Venezuela. A proliferação da doença está associada principalmente a
+                        perturbações ambientais e ao aquecimento global.
+                    </p>
+                </div>
+            </div>
+            <h3 style="text-align: center; margin-top: 2rem;">Gráfico do histórico da dengue em Indaiatuba</h3>
+            <canvas id="dengueChart" width="400" height="200"></canvas>
+        </div>
+
+        <br>
+
+        <div class="container-fluid banner">
+            <h2 id="3" class="textBanner">Atualmente</h2>
+        </div><br>
+
+
+        <div class="container-fluid conteudo" style="width: 90%;">
+            <div class="row">
+                <div class="col-sm" style="display: flex; justify-content: center;">
+                    <img class="img-fluid" style="width:60%" src="images\Dengue-02.svg" class="img"
+                        alt="Gráfico que apresenta algumas informações sobre a dengue no Brasil, uma pesquisa de 24 de maio de 2024, os dados apresentados são 5.239.867 casos prováveis, 3.038 mortes confirmadas e 2.679 mortes em investigação">
+                </div>
+                <div class="col-sm">
+                    <p style="padding-top: 3rem;">A dengue sempre foi um problema, dos
+                        grandes, em países subtropicais e
+                        tropicais. As mudanças climáticas, a alta taxa de urbanização acontecendo a todo momento são
+                        fatores que contribuem para que o mosquito Aedes Aegypti se propague com mais facilidade.
+                        Ultimamente o surto de dengue tem piorado bastante, tanto sua propagação, quanto as
+                        consequências da pessoa que contraiu a dengue, aumentando rapidamente o número de casos e
+                        mortes. O vírus da dengue vem desafiando os sistemas de saúde no Brasil inteiro, o Distrito
+                        Federal está na liderança de estado com mais casos de dengue no Brasil (coeficiente de
+                        incidência).</p>
+                </div>
+            </div>
+            <div class="card mx-auto cardAtual" style="margin-top: 2rem;">
+                <div class="card-body">
+                    <h4>Veja os dados sobre a dengue em Indaiatuba na última semana:</h4>
+                    <br>
+                    <p id="casosTexto" class=""></p>
+                    <span id="cardAtual">
+                        <p id="alertaTexto" class=""></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+        <div class="container-fluid banner">
+            <h2 id="4" class="textBanner">Sintomas</h2>
+        </div><br>
+
+
+        <div class="container-fluid" style="width: 90%;">
+            <div class="row">
+                <div class="col-sm" style="display: flex; justify-content: center;">
+                    <img class="img-fluid" src="images\4.svg" class="img" alt="Sintomas no corpo">
+                </div>
+                <div class="col-sm">
+                    <p style="text-align: justify;">Os sintomas são derivados das possíveis três fases da dengue, e eles
+                        começam cerca de cinco dias após a picada, esse período é conhecido como incubação e seus
+                        sintomas são febre alta, fortes dores de cabeça e também atrás dos olhos, náuseas, canseira e o
+                        surgimento de manchas vermelhas no corpo, esta fase é considerada sem sinais de alerta e seus
+                        sintomas só permanecem por alguns dias.
+
+                        <br>Caso os sintomas se agravem ao fim da primeira semana então ela é considerada com sinais de
+                        alerta, somente uma pequena parte atinge este estado, seus sintomas são dor abdominal intensa,
+                        vômitos recorrentes, canseira, desidratação e sangramentos nas mucosas, e deve ser tratada com a
+                        devida atenção pois o quadro viral pode evoluir rapidamente para dengue grave.
+
+                        <br>Antigamente chamada de dengue hemorrágica nessa fase os sintomas avançam causando uma
+                        hemorragia intensa, colapso circulatório e falência múltipla dos órgãos sendo a principal causa
+                        de óbito.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+        <div class="container-fluid banner">
+            <h2 id="5" class="textBanner">Diagnóstico</h2>
+        </div>
+        <br>
+
+        <div class="container-fluid" style="width: 90%;">
+            <div class="row">
+                <div class="col-sm" style="display: flex; justify-content: center;">
+                    <img class="img-fluid" src="images\Dengue-03.svg" class="img" alt="Foto de um tubo com sangue, um adesivo colado tem uma marcação de postivo sobre um texto que diz dengue.">
+                </div>
+                <div class="col-sm">
+                    <p style="text-align: justify;">O diagnóstico do paciente com suspeita de dengue é um processo que
+                        envolve múltiplas etapas para garantir a precisão. Inicialmente, os médicos avaliam os sintomas
+                        apresentados pelo paciente, que podem incluir febre alta, dores de cabeça intensas, dores atrás
+                        dos olhos, dores musculares e articulares, náuseas, vômitos e erupções cutâneas. Estes sintomas
+                        são considerados em conjunto com o histórico recente de viagens do paciente, especialmente se
+                        ele esteve em regiões onde a dengue é endêmica.
+
+                        <br>Além disso, a situação epidêmica local é levada em consideração. Em períodos de surtos ou
+                        epidemias de dengue, a suspeita da doença aumenta, e o diagnóstico clínico pode ser mais
+                        direcionado para essa possibilidade.
+
+                        <br>No entanto, como a dengue compartilha muitos sintomas com outras doenças infecciosas, como
+                        malária, chikungunya, zika, rubéola, sarampo, escarlatina, febre amarela e meningococcemia, é
+                        essencial realizar testes laboratoriais específicos para confirmar a presença do vírus da
+                        dengue. Esses testes podem incluir:
+
+                        <br> - Teste de antígeno NS1: Detecta a presença do antígeno NS1 do vírus da dengue nos
+                        primeiros dias de infecção.
+                        <br> - Sorologia (IgM e IgG): Identifica anticorpos produzidos em resposta à infecção pelo vírus
+                        da dengue. Os anticorpos IgM indicam infecção recente, enquanto os anticorpos IgG podem indicar
+                        infecção anterior.
+                        <br> - PCR (Reação em Cadeia da Polimerase): Este teste detecta o material genético do vírus da
+                        dengue e é altamente específico e sensível, permitindo a confirmação do diagnóstico nos estágios
+                        iniciais da doença.
+
+                        <br>Os exames laboratoriais não apenas confirmam a presença do vírus da dengue, mas também
+                        ajudam a diferenciar a dengue de outras doenças com sintomas semelhantes, assegurando que o
+                        paciente receba o tratamento adequado. A confirmação laboratorial é crucial para a vigilância
+                        epidemiológica e para o manejo adequado do paciente, contribuindo para a adoção de medidas de
+                        controle e prevenção da doença.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="container-fluid banner">
+            <h2 id="6" class="textBanner">Tratamento</h2>
+        </div><br>
+
+
+        <div class="container-fluid" style="width: 90%;">
+            <div class="row">
+                <div class="col-sm" style="display: flex; justify-content: center;">
+                    <img class="img-fluid" src="images\Dengue-04.svg" class="img"
+                        alt="Imagem de uma pessoa enferma internada em um hospital." style="width: 80%;">
+                </div>
+                <div class="col-sm">
+                    <p style="text-align: justify;">Atualmente não se conhece um tratamento específico contra a dengue,
+                        em casos de dengue hemorrágica, com vômitos recorrentes, pode ser necessária reidratação em
+                        hospital, do contrário é recomendado que o doente beba bastante água, repouse, e procure ajuda
+                        médica em caso de sangramento ou outros sinais de alerta, analgésicos e outros medicamentos
+                        atenuadores de sintomas devem ser usados apenas com acompanhamento médico. </p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="container-fluid banner">
+            <h2 id="7" class="textBanner">Prevenção</h2>
+        </div>
+        <br>
+
+
+        <div class="container-fluid" style="width: 90%;">
+            <div class="row">
+                <div class="col-sm" style="display: flex; justify-content: center;">
+                    <img class="img-fluid" src="images\7.svg" class="img"
+                        alt="Imagem demonstrando as técnicas de prevenção descritas no texto">
+                </div>
+                <div class="col-sm">
+                    <p class="conteudo__texto" style="text-align: justify;">O mosquito Aedes aegypti é o agente
+                        transmissor de doenças como a Dengue, Zika e Chikungunya. A proliferação do mosquito se dá por
+                        diversos motivos, como a falta de saneamento básico ou o crescimento desordenado das cidades.
+                        Devido a isso, é de extrema necessidade que medidas de prevenção sejam tomadas por todos, desde
+                        os órgãos governamentais e até a própria população.
+
+                        <br>O grande foco da prevenção a Dengue é erradicar a proliferação do mosquito através da
+                        eliminação dos possíveis criadouros do mosquito. Coisas como: Evitar água parada em diversos
+                        recipientes, em locais como vasos de plantas, pneus, garrafas plásticas, tampas de garrafa,
+                        piscinas sem uso e manutenção, etc. A verificação de calhas, por exemplo, pode ser uma boa
+                        medida de prevenção ao Aedes aegypti, evitando que coisas como folhas e galhos impeçam a
+                        circulação da água.
+
+                        <br>A vedação de caixas d’água e lixeiras também é parte fundamental no combate ao mosquito. Em
+                        caso de obras na vizinhança, é sempre bom se manter atento a possíveis criadouros em
+                        equipamentos de construção como lonas, betoneiras, carrinhos de mão, etc.
+
+                        <br>Outras medidas que a população pode tomar é utilizar repelentes de mosquito, instalar telas
+                        protetoras nas janelas da residência e demais locais de convivência, utilizar roupas que
+                        auxiliem na proteção (roupas brancas e que exponham poucas partes do corpo) e ajudar nas
+                        campanhas do SUS (Sistema único de Saúde), ajudando na fiscalização e conscientização contra a
+                        Dengue em seus locais de convívio.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+        <div class="frameVideo">
+            <section class="video-container">
+                <center>
+                    <h2>Vídeo relevante</h2>
+                    <iframe width="auto" height="200" src="https://www.youtube.com/embed/pX83UEQfrF8" frameborder="3"
+                        allowfullscreen></iframe>
+                </center>
+            </section>
+        </div>
+
+
+        <div class="accordion" id="accordionExample">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        De sua opinião!
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <form>
+                        <div class="questionario">
+                            <p class="questionario"> Sua opinião é muito importante para nós, por favor avalie sua
+                                experiencia em nosso site!
+                                <br>
+                                <br>
+                                Avalie o conteúdo do site:
+                                <br>
+                            </p>
+
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_secao" id="questi-secao1"
+                                    value="1 - Muito Ruim" checked>
+                                <label class="form-check-label" for="questi-secao1">1 - Muito Ruim </label>
+                            </div>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_secao" id="questi-secao2"
+                                    value="2 - Ruim">
+                                <label class="form-check-label" for="questi-secao2">2 - Ruim </label>
+                            </div>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_secao" id="questi-secao3"
+                                    value="3 - Moderado">
+                                <label class="form-check-label" for="questi-secao3">3 - Moderado </label>
+                            </div>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_secao" id="questi-secao4"
+                                    value="4 - Bom">
+                                <label class="form-check-label" for="questi-secao4">4 - Bom </label>
+                            </div>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_secao" id="questi-secao5"
+                                    value="5 - Muito Bom">
+                                <label class="form-check-label" for="questi-secao5">5 - Muito Bom </label>
+                            </div>
+                            <br>
+                            Avalie a apresentação site:
+                            <!--só um espaço entre o cabeçalho da questão e as opções-->
+                            <p></p>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_cor" id="questi-cor1"
+                                    value="1 - Muito Ruim" checked>
+                                <label class="form-check-label" for="questi-cor1">1 - Muito Ruim </label>
+                            </div>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_cor" id="questi-cor2"
+                                    value="2 - Ruim">
+                                <label class="form-check-label" for="questi-cor2">2 - Ruim </label>
+                            </div>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_cor" id="questi-cor3"
+                                    value="3 - Moderado">
+                                <label class="form-check-label" for="questi-cor3">3 - Moderado </label>
+                            </div>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_cor" id="questi-cor4"
+                                    value="4 - Bom">
+                                <label class="form-check-label" for="questi-cor4">4 - Bom </label>
+                            </div>
+                            <div class="form-check questionario">
+                                <input class="form-check-input" type="radio" name="questi_cor" id="questi-cor5"
+                                    value="5 - Muito Bom">
+                                <label class="form-check-label" for="questi-cor5">5 - Muito Bom </label>
+                            </div>
+                            <br>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Nos deixe um comentário.</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario"
+                                    rows="3"
+                                    placeholder="Obrigado pela visita, e repasse essas informações para amigos e familiares!!!"></textarea>
+                            </div>
+                            <br>
+                            <button type="submit" id="submitBtn" class="btn btn-primary btn-sm">Enviar</button>
+                            <br><br>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Veja outros recursos</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue"><i
+                                        class="fa fa-angle-double-right"></i>Ministério da saúde</a></li>
+                            <li><a
+                                    href="https://www.indaiatuba.sp.gov.br/saude/vigilancia-em-saude/vigilancia-epidemiologica/dengue/"><i
+                                        class="fa fa-angle-double-right"></i>Prefeitura de Indaiatuba</a></li>
+                            <li><a href="https://info.dengue.mat.br/"><i class="fa fa-angle-double-right"></i>Info
+                                    Dengue</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-1 col-md-1">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-7">
+                        <h5><a href="https://fatecid.com.br/cursos/">Conheça a FATEC de Indaiatuba!</a></h5>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.304234737353!2d-47.20515972592317!3d-23.085956244296515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b4b183d3173b%3A0xe4e10e5dd84bd49e!2sFatec%20Indaiatuba%20-%20Faculdade%20de%20Tecnologia%20de%20Indaiatuba%20Dr.%20Archimedes%20Lammoglia!5e0!3m2!1spt-BR!2sbr!4v1718968597670!5m2!1spt-BR!2sbr"
+                            width=90%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item">
+                                <p><i class="fa fa-facebook"></i></p>
+                            </li>
+                            <li class="list-inline-item">
+                                <p href="https://www.fiverr.com/shpre/qb8D02"><i clpss="fp fp-twitter"></i></p>
+                            </li>
+                            <li clpss="list-inline-item">
+                                <p href="https://www.fiverr.com/shpre/qb8D02"><i clpss="fp fp-instpgrpm"></i></p>
+                            </li>
+                            <li clpss="list-inline-item">
+                                <p href="https://www.fiverr.com/shpre/qb8D02"><i clpss="fp fp-google-plus"></i></p>
+                            </li>
+                            <li clpss="list-inline-item">
+                                <p href="https://www.fiverr.com/shpre/qb8D02" tprget="_blpnk"><i
+                                        clpss="fp fp-envelope"></i></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p style="color: black;"><u><a href="#" style="color: #b71919;">Xô Dengue!</a></u> is developed
+                            by DSM Fatec Indaiatuba Students</p>
+                        <p class="h6">© All right Reversed.</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <style>
+        /* Estilo para compensar a altura da navbar fixa */
+        h2[id],
+        h3[id],
+        h4[id],
+        h5[id],
+        h6[id] {
+            scroll-margin-top: 4rem;
+            /* Faz com que o navegador desconte a altura da navbar ao rolar */
+        }
+    </style>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Fecha a navbar ao clicar em um link
+            $('.navbar-nav a').on('click', function () {
+                if ($('.navbar-toggler').is(':visible')) {
+                    $('.navbar-collapse').collapse('hide');
+                }
+            });
+
+            // Fecha a navbar ao clicar novamente no botão do hamburguer
+            $('.navbar-toggler').on('click', function () {
+                if ($('.navbar-collapse').hasClass('show')) {
+                    $('.navbar-collapse').collapse('hide');
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $.getJSON("https://www.info.dengue.mat.br/api/alertcity?geocode=3520509&disease=dengue&format=json&ew_start=1&ew_end=53&ey_start=2024&ey_end=2024", function (result) {
+                    $.each(result, function (i, field) {
+                        $("#res").append(field + " ");
+                    });
+                });
+            });
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="./index.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
