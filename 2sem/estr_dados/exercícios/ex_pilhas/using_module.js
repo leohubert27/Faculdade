@@ -1,3 +1,3 @@
 const conversor = require('./decimalToBinary')
 
-conversor.decimal(27)
+conversor.decimal(1999)
