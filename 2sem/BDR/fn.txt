@@ -1,0 +1,35 @@
+PRIMEIRA FORMA NORMAL
+
+PASSO 1:
+
+    Se (há atributos multivalorados) então
+        colocar em outra tabela e relacionar com a tabela original
+    fim
+
+PASSO 2:
+
+    Se (há atributos compostos) então
+        dividir atributos compostos em atômicos
+    fim
+
+
+
+SEGUNDA FORMA NORMAL
+
+// Há atributos que dependem parcialmente da PK
+
+    Se (há dependencia funcional parcial) entao
+        Atributos que dependem de toda a PK composta permanecem na tabela original
+        Atributos que dependem de parte da PK devem ser levados para uma nova tabela
+    fim
+
+TERCEIRA FORMA NORMAL
+
+// há atributos não-chave que depende de outro também não-chave
+
+    Se (há dependencia funcional transitiva) entao
+        permanecem na tabela original apenas atributos que dependem da PK;
+        Vão para uma nova tabela:
+            a- o atributo não-chave que identifica o(s) outro(s) atributo(s) também não-chave
+            b- o atributo não-chave que é identificado pelo citado anteriormente
+    fim
